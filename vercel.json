@@ -6,7 +6,7 @@
       "src": "react-version/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "react-version/build"
+        "distDir": "build"
       }
     }
   ],
