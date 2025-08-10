@@ -1,15 +1,9 @@
 {
   "version": 2,
   "name": "milo-newsletter-landing",
-  "builds": [
-    {
-      "src": "react-version/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "build"
-      }
-    }
-  ],
+  "buildCommand": "cd react-version && npm run build",
+  "outputDirectory": "react-version/build",
+  "installCommand": "cd react-version && npm install",
   "rewrites": [
     {
       "source": "/(.*)",
