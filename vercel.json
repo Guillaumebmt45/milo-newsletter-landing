@@ -1,9 +1,10 @@
 {
   "version": 2,
   "name": "milo-newsletter-landing",
-  "buildCommand": "cd react-version && npm run build",
-  "outputDirectory": "react-version/build",
-  "installCommand": "cd react-version && npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "installCommand": "npm install",
+  "rootDirectory": "react-version",
   "rewrites": [
     {
       "source": "/(.*)",
